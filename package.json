@@ -1,0 +1,44 @@
+{
+  "name": "covid19tracker",
+  "version": "1.0.0",
+  "description": "Prawjals Covid19tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwalsbeta/covid19.git"
+  },
+  "keywords": [
+    "react",
+    "covid19",
+    "corona-virus"
+  ],
+  "author": "Prajwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajwalsbeta/covid19/issues"
+  },
+  "homepage": "https://github.com/prajwalsbeta/covid19#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
