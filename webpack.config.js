@@ -7,7 +7,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: ['babel-polyfill',"./src/index.js",],
   output: {
     path: path.resolve("dist"),
     filename: "bundled.js"
@@ -22,8 +22,14 @@ module.exports = {
           }
         },
         {
-          test: /\.css$/,
-          use: ["style-loader", "css-loader"]
+          test: /\.css$/i,
+          use: [
+            {
+              loader: 'style-loader',
+              options: { injectType: 'singletonStyleTag' },
+            },
+            'css-loader'
+            ],
         }
       ]
     },
