@@ -7,6 +7,9 @@
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
+  "engines": {
+    "node":"12.16.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prajwalsbeta/covid19.git"

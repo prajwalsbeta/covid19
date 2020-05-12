@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+.maincontainerdark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #101010;
+}
+
+.maincontainerlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fafafa;
+}
