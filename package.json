@@ -45,7 +45,7 @@
     "@babel/polyfill": "^7.8.7",
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
